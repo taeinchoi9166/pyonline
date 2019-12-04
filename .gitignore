@@ -1,0 +1,5 @@
+web/resources/js/node_modules
+web/resources/js/dist
+
+out/
+target/

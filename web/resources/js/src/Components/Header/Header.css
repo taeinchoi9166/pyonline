@@ -1,0 +1,14 @@
+header{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #2b94ff;
+    height:10vh;
+}
+
+.header-text {
+    font-size:1.7rem;
+    font-width: bold;
+}

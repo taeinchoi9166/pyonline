@@ -1,0 +1,23 @@
+.form-panel {
+    background: #3176d6;
+    height:10%;
+    width:100%;
+}
+
+.form-panel > * {
+    float:right;
+}
+
+.code-run-btn {
+    background: #4a8dc0;
+    font-size:1.1rem;
+    color:#fff;
+    height: 100%;
+    padding-left: 26px;
+    padding-right: 26px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor:pointer;
+}

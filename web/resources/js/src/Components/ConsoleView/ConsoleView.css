@@ -1,0 +1,52 @@
+.console-view-wrap {
+
+}
+
+.console-view-title {
+    background: #2c70d0;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    width:100%;
+    height: 10%;
+}
+
+
+.console-view-title > h2{
+    color:#fff;
+    font-size:1.8rem;
+    font-weight: bold;
+}
+
+.console-view-text {
+    background:#202020;
+    color:#fcfcfc;
+    padding:1rem;
+    height:90%;
+}
+
+@keyframes cursor_blink_animation {
+    0%{
+        opacity:1;
+    }
+    49%{
+        opacity:1;
+    }
+    50% {
+        opacity:0;
+    }
+    99%{
+        opacity:0;
+    }
+}
+
+.console-view-text::after {
+    content: ' ';
+    width: 0.3rem;
+    background: #fff;
+    height: 18px;
+    display: block;
+    position: relative;
+    animation: cursor_blink_animation 1s linear infinite;
+}

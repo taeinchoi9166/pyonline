@@ -1,0 +1,35 @@
+/* commons */
+
+* {
+    margin:0 auto;
+    padding:0;
+    box-sizing: border-box;
+    color:#444;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+button {
+    border:none;
+    background: none;
+}
+
+
+/* layout */
+
+.content-wrap {
+    width:100%;
+    height:90vh;
+}
+
+.content-wrap > * {
+    float:left;
+    width: 50%;
+    height:90vh;
+}
